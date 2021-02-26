@@ -124,62 +124,6 @@ class HomePage extends React.Component {
             </div>
           </div>
         </section>
-
-        <section className="mit-section mit-py-100 bg-white">
-          <div className="container">
-            <h4 className="mit-title-h4 text-center font-weight-800 pb-4">
-              Subscriptions
-            </h4>
-            <div className="mit-row justify-content-md-center">
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 mb-5">
-                <div className="mit-pricing bg-dark-grey">
-                  <div className="mit-pricing-heading">
-                    <h4 className="mit-title-h4 font-weight-800">INDIVIDUAL</h4>
-                  </div>
-
-                  <div className="mit-pricing-body">
-                    <ul className="mit-list-pricing mb-0 mit-text-primary">
-                      <li>$ 6 / month</li>
-                      <li>$ 60 / year</li>
-                      <li className="mb-0 pb-0">
-                        Includes 7 days <br /> free trial
-                      </li>
-                    </ul>
-                    <Link to="/signup">
-                      <button className="btn mitbtn-outline-primary btn-pricing">
-                        SUBSCRIBE
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 mb-5">
-                <div className="mit-pricing bg-dark-grey">
-                  <div className="mit-pricing-heading">
-                    <h4 className="mit-title-h4 font-weight-800">CORPORATE</h4>
-                  </div>
-
-                  <div className="mit-pricing-body">
-                    <ul className="mit-list-pricing mb-0 mit-text-primary">
-                      <li>$ 195 / month</li>
-                      <li>$ 2,000 / year</li>
-                      <li className="mb-0 pb-0">
-                        Includes 30 days <br /> free trial
-                      </li>
-                    </ul>
-                    <Link to="/signup">
-                      <button className="btn mitbtn-outline-primary btn-pricing">
-                        SUBSCRIBE
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <Footer />
       </div>
     );
