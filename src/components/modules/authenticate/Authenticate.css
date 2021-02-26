@@ -1,0 +1,103 @@
+.auth-BG{
+    background: url('../../../images/banners/login_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh
+}
+.auth-box{
+    width:400px;
+    background: #ffffff;
+    margin:auto;
+    position: relative;
+    border-radius: 8px;
+    top:50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 15px;
+    padding:30px 40px
+}
+.auth-box img{
+    width: 150px;
+    margin: auto;
+}
+.auth-box .form-unit input, .auth-box .form-unit select{
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #888888;
+    text-align: center;
+    font-size: 0.85em;
+}
+.auth-box .form-unit select {
+    -webkit-appearance: none;
+    text-align-last:center
+}
+.auth-box ul{
+    margin: 20px auto;
+}
+.auth-box li{
+    padding: 10px;
+    display: inline-block;
+}
+.auth-box .btn-submit{
+    width:100%;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid #3F465B;
+    background: #3F465B;
+    color: #ffffff;
+    box-shadow: 3px 3px 5px #3F465B;
+}
+.auth-box .btn-submit:disabled{
+    background: #777777;
+    cursor: no-drop;
+}
+.auth-box .btn-submit.back{
+    border: 1px solid #3F465B;
+    background: #3F465B;
+}
+.btn-social{
+    width:40px;
+    height:40px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    box-shadow: 3px 3px 5px;
+}
+.btn-social img{
+    width: 41px;
+    height: 41px;
+    margin: auto
+}
+.auth-box .sub-links{
+    font-size: 0.75em;
+    margin-bottom: 5px;
+}
+.auth-box .sub-links span{
+    color: #035891;
+    cursor: pointer;
+}
+.password-rules{
+    margin-top:20px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 0.75em;
+}
+.password-rules p{
+    margin-bottom: 5px;
+}
+.password-rules .fa-check{
+    border:1px solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 5px;
+    color: #888888;
+    font-size: 0.8em;
+}
+.password-rules .success{
+    color:green
+}
+.password-rules .success .fa-check{
+    background: green;
+    color: #FFFFFF;
+}

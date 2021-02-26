@@ -1,0 +1,268 @@
+.big-text{
+    font-size: 1.8em;
+}
+.pie-indicators{
+    margin-top:30px
+}
+.revenue-desc .item{
+    margin-top:20px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+.revenue-desc .item p{
+    margin-bottom: 0;
+}
+.revenue-desc .item p strong{
+    font-size: 1.5em;
+}
+.revenue-desc .item.one{
+    background-color: #17b712;
+}
+.revenue-desc .item.two{
+    background-color: #3F465B;
+}
+.revenue-desc .item.three{
+    background-color: #3992f9;
+}
+.revenue-desc .item.four{
+    background-color: #ebc23b;
+}
+.expired-square,.active-square{
+    width:50px;
+    text-align: center;
+    background-color: #17b712;
+    font-size: 0.9em;
+    color:#ffffff;
+    padding: 3px 0px 4px;
+    border-radius: 3px;
+}
+.expired-square{
+    background-color: #C40223;
+}
+.comm-list{
+    margin-top: 30px;
+}
+.comm-list i{
+    margin-top: 0px;
+    cursor: pointer;
+}
+.comm-list thead{
+    color:#ffffff;
+    background: #3F465B;
+    border-radius: 5px 5px 0 0;
+}
+.create-comm-modal{
+    width:600px;
+    padding: 0 15px;
+}
+.form-unit input, .form-unit textarea{
+    width:100%;
+    padding: 8px 10px;
+    font-size: 0.9em;
+}
+.btn-general-community{
+    width: 100%;
+    background: #3F465B;
+    border: none;
+    color: #ffffff;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px auto;
+}
+.comm-list td{
+    vertical-align: middle!important;
+}
+#CommunityOperation .matchup-secs{
+    height: auto !important;
+    max-height: 461px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#CommunityOperation .matchup-secs table{
+    margin:0;
+}
+.pagination-block{
+    font-size: 1.1em;
+    display: inline-block;
+    margin-top:5px;
+}
+.pagination-block li{
+    display: inline-block;
+}
+.pagination-block .fa{
+    color: #fff;
+    background: #3F465B;
+    padding: 8px;
+    cursor: pointer;
+}
+.pagination-block .fa.onEdge{
+    background: #ccc;
+    cursor: no-drop;
+    pointer-events: none
+}
+.pagination-divider{
+    border-left: 1px solid #3F465B;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+.num-holder{
+    text-align: center;
+    width:40px;
+}
+.btn-create-comm{
+    background: #3F465B;
+    color: #ffffff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.fa.bigger{
+    font-size: 1.3em;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+button.button-view-all{
+    border: none;
+    background: none;
+    color: #3F465B;
+    float: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.matchup-secs-height{
+    height: 350px;
+}
+.general-search-input{
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+.btn-update{
+    border: none;
+    background: #3F465B;
+    color: #fff;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 12px;
+    float: right;
+}
+#ManagingOperation a{
+    cursor: pointer;
+}
+.btn-delete{
+    border: none;
+    background: none;
+    font-size: 12px;
+    display: none;
+    float: right;
+}
+.btn-add-delete{
+    border: none;
+    background: none;
+    font-size: 12px;
+    float: right;
+}
+.matchup-secs-update{
+    height: 530px;
+}
+.btn-update-submit{
+    background: #3F465B;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.general-input-xl{
+    width: 100%;
+    padding: 2px 5px;
+    border: 1px solid #888;
+}
+.accordion-overflow{
+    overflow-y: auto;
+    height: 450px;
+}
+#ManagingOperation .matchup-secs table input{
+    border: unset;
+    height: 30px;
+}
+.table-overflow{
+    height: 430px;
+    overflow-y: auto;
+}
+.inputfocus:hover .btn-delete{
+    display: inline-block;
+}
+#accordion a{
+    margin-right: 20px;
+}
+.btn-save {
+    border: none;
+    background: none;
+    font-size: 12px;
+    display: none;
+    float: right;
+}
+.inputfocus:hover .btn-save{
+    display: inline-block;
+}
+.general-input-noborder {
+    border: 1px solid #888;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.btn-update-fr{
+    display: block;
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 15px;
+}
+.btn-update-fr.frs{
+    width: 120px;
+}
+span.ag-header-group-text{
+    margin: auto;
+}
+.noexpiryaccounts{
+    margin: 0;
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    color:#3F465B;
+    font-size: 0.8em;
+    text-align: center;
+}
+.btn-update-comm{
+    display: block;
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 95px;
+    border-radius: 15px;
+}
+.report-gen{
+    font-size: 0.9em;
+}
+.report-gen .link{
+    background:none;
+    border: none;
+    color: #3992f9;
+    text-decoration: underline;
+}
+.report-gen .dl-btn{
+    background:none;
+    border: none;
+}
+.report-gen i{
+    color: #ffffff;
+    font-size: 1.4em;
+    background: #3992f9;
+    padding: 10px 11px;
+    border-radius: 50%;
+}

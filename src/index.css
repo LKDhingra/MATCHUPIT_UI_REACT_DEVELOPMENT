@@ -1,0 +1,12 @@
+/* @font-face {
+  font-family: 'custom-font-regular';
+  src: url('./fonts/Roboto-Regular.ttf');
+} */
+body {
+  margin: 0;
+  font-family: "Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  font-size:16px;
+}

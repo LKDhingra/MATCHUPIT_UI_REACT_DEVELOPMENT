@@ -1,0 +1,125 @@
+.profile-bg{
+    background: #3F465B;
+    position: relative;
+    color:#ffffff;
+    border-radius: 8px 8px 0 0;
+    padding: 15px;
+}
+.profile-bg img{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+.main-name{
+    font-size: 1.5em;
+    word-break: break-word;
+}
+.profile-details-block{
+    background: #efefef;
+    margin-bottom: 10px;
+}
+.profile-page-social li{
+    display: inline-block;
+    padding:10px;
+    color:#3F465B;
+}
+.video-conf{
+    width: 185px;
+    border: 2px solid;
+    float: right;
+}
+.avail-hire{
+    color: #fff;
+    padding: 2px 10px 3px;
+    font-size: 0.8em;
+    border-radius: 10px;
+}
+.value-text{
+    font-size: 0.85em;
+}
+.tagging-holder{
+    position: relative;
+    margin-top:15px;
+}
+.tagging-holder .fa{
+    margin-right:20px;
+    cursor:pointer
+}
+.tag-comment-holder{
+    position: absolute;
+    width:200px;
+    z-index:9;
+    top:35px
+}
+.tag-comment-holder textarea{
+    width: 100%;
+    padding: 5px;
+    background: #fff;
+    font-size: 0.8em;
+    padding-bottom:20px
+}
+.styled-about ul{
+    list-style: disc;
+    padding-left: 30px;
+}
+.cust-angle-up{
+    position: absolute;
+    width: 10px;
+    height:10px;
+    border-left:1px solid;
+    border-top:1px solid;
+    top:-5px;
+    left:5px;
+    z-index: 99;
+    transform: rotate(45deg);
+}
+.tag-comment-holder button{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+.comments-form{
+    padding: 15px;
+    font-size: 0.75em;
+    max-height: 250px;
+    width: 600px;
+    overflow-y: auto;
+}
+.comments-form span{
+    color:#3F465B;
+    font-size: 1.1em;
+}
+.comments-input{
+    padding: 15px 15px 0 15px;
+    font-size: 0.75em;
+}
+.comments-input textarea{
+    width: 100%;
+    padding: 3px 8px;
+}
+.comments-input button{
+    background: none;
+    border:none;
+    font-size: 3em;
+}
+.comments-input button .fa-times-circle{
+    color:#3F465B;
+}
+.comments-input button .fa-check-circle{
+    color:green;
+}
+.btn-download button{
+    margin-top:20px;
+    color:#ffffff;
+    padding: 3px 15px;
+    border-radius: 20px;
+    border: 1px solid #3F465B;
+    background: #3F465B;
+}
+.carousel-control.comm{
+    top:7px;
+    color: #efefef!important;
+}
+#boxCarousel3 p{
+    margin-top:10px;
+}

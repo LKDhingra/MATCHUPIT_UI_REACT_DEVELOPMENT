@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/express
+hooks:
+  BeforeInstall:
+    - location: scripts/pre_install.sh
+      timeout: 600
+      runas: ubuntu
+  Install:
+    - location: scripts/on_install.sh
+      timeout: 600
+      runas: ubuntu
+  AfterInstall:
+    - location: scripts/post_install.sh
+      timeout: 600
+      runas: ubuntu
+  ApplicationStart:
+    - location: scripts/app_start.sh
+      timeout: 600
+      runas: ubuntu

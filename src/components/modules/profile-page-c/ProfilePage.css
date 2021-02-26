@@ -1,0 +1,39 @@
+.logo-bg-corp{
+    background: #3F465B;
+    position: relative;
+    padding: 15px;
+    color:#ffffff;
+    border-radius: 8px 8px 0 0
+}
+.logo-bg-corp img{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.main-name-corp{
+    font-size: 1.5em;
+}
+.profile-details-block{
+    background: #efefef;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.profile-page-social li{
+    display: inline-block;
+    padding:10px;
+    color:#3F465B;
+}
+.video-intro-corp{
+    float: right;
+    margin-bottom: 10px;
+    width: 185px;
+    border: 2px solid;
+}
+.avail-hire{
+    color: #fff;
+    padding: 2px 10px 3px;
+    font-size: 0.8em;
+    border-radius: 10px;
+}
+.value-text{
+    font-size: 0.85em;
+}

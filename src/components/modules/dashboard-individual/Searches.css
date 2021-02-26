@@ -1,0 +1,90 @@
+.recentsearches-secs {
+    background: #fcfcfc;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #bbb;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+    width: 25%;
+    height: 220px;
+    text-align: left;
+    overflow-y: auto;
+}
+
+#recentsearches h3 {
+    margin-left: 10%;
+}
+
+#recentsearches ul li {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+#recentsearches ul {
+    margin:auto
+}
+.carousel-control {
+    top: auto;
+    bottom: 120px;
+    width: 5%;
+}
+
+.popularsearches-secs {
+    background: #fcfcfc;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #bbb;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+    width: 90%;
+}
+
+#popularsearches h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#popularsearches ul {
+    overflow-y: auto;
+    height: 550px;
+}
+
+#popularsearches ul li {
+    display: block;
+    cursor: pointer;
+}
+
+.glyphicon {
+    background-color: #3F465B;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+        width: 40px;
+        height: 40px;
+        padding-top: 4px;
+    }
+}
+.main-search-holder {
+    bottom: 100px;
+}
+.recent-item {
+    cursor: pointer;
+}
+.recent-holder {
+    margin-top: 5px;
+    height: calc(80vh);
+    overflow-y: auto;
+}
+.general-filter-name{
+    position: absolute;
+    bottom: 15px;
+    left: 15%;
+    border: none;
+}

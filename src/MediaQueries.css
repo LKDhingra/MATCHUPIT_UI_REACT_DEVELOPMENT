@@ -1,0 +1,688 @@
+.btn-join-holder {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+}
+/* .each-holder{
+    height: 280px;
+    overflow-y: auto;
+} */
+#Settings .matchup-secs table tr td{
+    min-width: 200px;
+}
+.profile-status .matchup-secs .sub-text{
+    height: 250px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+.slider-holder img{
+    height: 85vh;
+}
+#Messenger .input-container{
+    margin-top: 5px;
+}
+
+/*------------------------------------------- 1334px --------------------------------------*/
+@media only screen and (max-width: 1334px) {
+    .landing-content {
+        line-height: 80vh;
+    }
+    .landing-content span {
+        font-size: 15px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 18px 45px;
+    }
+    .user-item {
+        margin-top: 10px;
+    }
+    .user-item .message {
+        overflow: hidden;
+        height: 40px;
+    }
+
+    .matchup-secs table input {
+        width: 100%;
+    }
+}
+
+/*------------------------------------------- 1265px --------------------------------------*/
+@media only screen and (max-width: 1265px) {
+    .landing-content {
+        line-height: 75vh;
+    }
+    .landing-content span {
+        font-size: 13px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 15px 40px;
+    }
+    .section-header {
+        font-size: 26px;
+    }
+    .section h2 {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .search-input {
+        width: auto;
+        font-size: 16px;
+    }
+    .btn-general {
+        width: auto;
+        font-size: 16px;
+    }
+    .apply-holder{
+        bottom: 5px;
+    }
+    .matchup-secs-height{
+        height: 370px;
+    }
+    .search-main{
+        padding-left: 135px;
+    }
+}
+/*------------------------------------------------- 1200px ---------------------------------------*/
+@media only screen and (max-width: 1200px){
+    .revenue-desc .item{
+        height: 90px;
+    }
+}
+
+/*------------------------------------------------- 1134px ---------------------------------------*/
+@media only screen and (max-width: 1134px) {
+    .landing-content {
+        line-height: 70vh;
+    }
+    .landing-content span {
+        font-size: 11px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 12px 35px;
+    }
+    .section-header {
+        font-size: 24px;
+    }
+    .section h2 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .search-input {
+        width: auto;
+        font-size: 15px;
+    }
+    .btn-general {
+        width: auto;
+        font-size: 15px;
+    }
+    .btn-join-holder {
+        width: 80%;
+    }
+    .landing-content-test .landing-header{
+        font-size: 2em;
+    }
+    .top-comm-table{
+        min-width: 600px;
+    }
+    .expiry-table{
+        min-width: 280px;
+        height: 225px;
+    }
+    .signup-text-admin{
+        margin-left: 30px;
+    }
+}
+
+/*------------------------------------------- 1002px ----------------------------------------*/
+@media only screen and (max-width: 1002px) {
+    .landing-content {
+        line-height: 65vh;
+    }
+    .landing-content span {
+        
+        font-size: 10px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 10px 30px;
+    }
+    .section-header {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .section h2 {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    .search-input {
+        width: auto;
+        font-size: 14px;
+    }
+    .btn-general {
+        width: auto;
+        font-size: 14px;
+    }
+    .quick-links {
+        font-size: 13px;
+    }
+    .btn-join-holder {
+        width: 70%;
+    }
+    .name-holder {
+        padding-left: 5px;
+    }
+    .landing-content-test .landing-header{
+        font-size: 1.7em;
+    }
+}
+
+/*------------------------------------------------ 989px ------------------------------------------*/
+@media only screen and (max-width: 989px) {
+    .popularsearches-secs{
+        width: 60%;
+        margin-left: 10%;
+    }
+    #popularsearches h3{
+        margin-left: 10%
+    }
+    .recentsearches-secs{
+        height: 200px
+    }
+    .hire-avail{
+        top: 10px;
+    }
+    .matchup-secs-height{
+        height: unset;
+    }
+    .pie-chart-height{
+        height: 200px;
+    }
+    .graph-col{
+        margin-top: 20px;
+    }
+    .signup-text-admin{
+        margin-left: unset;
+    }
+    .revenue-desc .item{
+        height: unset;
+    }
+}
+
+/*------------------------------------------------ 880px ------------------------------------------*/
+@media only screen and (max-width: 880px) {
+    .btn-join-holder {
+        width: 60%;
+    }
+    .landing-content-test .landing-header{
+        font-size: 1.5em;
+    }
+    .landing-content-test{
+        height: 60vh;
+    }
+}
+
+/*------------------------------------------------ 867px ------------------------------------------*/
+@media only screen and (max-width: 867px) {
+    .landing-content {
+        line-height: 60vh;
+    }
+    .landing-content span {
+        font-size: 9px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 8px 27px;
+        border-top: 1px;
+    }
+    .section-header {
+        font-size: 20px;
+    }
+    .section h2 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .search-input {
+        width: auto;
+        font-size: 13px;
+    }
+    .btn-general {
+        width: auto;
+        font-size: 13px;
+    }
+    .quick-links {
+        font-size: 12px;
+    }
+    .slider-holder img{
+        height: 80vh;
+    }
+    .user-list ul{
+        height: calc(100% - 230px);
+    }
+}
+
+/*--------------------------------------------------- 800px ------------------------------------------*/
+@media only screen and (max-width: 800px) {
+    .landing-content {
+        line-height: 50vh;
+    }
+    .landing-content span {   
+        font-size: 8px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 6px 25px;
+    }
+    .section-header {
+        font-size: 18px;
+    }
+    .section h2 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .search-input {
+        width: auto;
+        font-size: 12px;
+    }
+    .btn-general {
+        width: auto;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .quick-links {
+        font-size: 11px;
+    }
+}
+
+/*----------------------------------------- 767px ------------------------------------------*/
+@media only screen and (max-width:767px){
+    .quick-links {
+        font-size: 15px;
+    }
+    .btn-join-holder {
+        width: 90%;
+    }
+    .img-small-screen {
+        display: block;
+        margin: auto;
+        width: 200px;
+        text-align: center;
+    }
+    .hire-switch{
+        bottom: 170px;
+        right: 5px;
+    }
+    .recentsearches-secs{
+        width: 40%;
+    }
+    .resume-selector li{
+        display: inline-block;
+        margin: 10px 10px;
+    }
+    .landing-content-test .landing-header{
+        font-size: 2em;
+    }
+    .landing-content-test{
+        height: 35vh;
+    }
+    .section-header {
+        margin-top: 25px;
+    }
+    #Footer .container-fluid .row div{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Footer .container-fluid .row ul{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video-intro-corp{
+        float: none;
+    }
+    .centerImgVid{
+        text-align: center;
+    }
+    .matchup-secs-table{
+        height: 340px;
+    }
+    .video-conf{
+        float: none;
+    }
+    .centerNameEmail{
+        text-align: center;
+    }
+    .comm-list-holder .row .col-sm-4 h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/*-------------------------------------------- 665px ----------------------------------------*/
+@media only screen and (max-width: 665px) {
+    .landing-content {
+        line-height: 45vh;
+    }
+    .landing-content span {
+        
+        font-size: 7px;
+        text-align: center;
+    }
+    .btn-banner {
+        padding: 6px 25px;
+        font-size: 18px;
+    }
+    .section-header {
+        font-size: 16px;
+    }
+    .section h2 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .search-input {
+        width: auto;
+        font-size: 11px;
+    }
+    .btn-general {
+        width: auto;
+        font-size: 11px;
+    }
+    .slider-holder img{
+        height: 78vh;
+    }
+    .landing-content-test .landing-header{
+        font-size: 1.7em;
+    }
+    .search-main{
+        padding-left: 120px;
+    }
+}
+
+/*-------------------------------------------- 600px -------------------------------------*/
+@media only screen and (max-width: 600px) { 
+    .btn-banner { 
+        padding: 10px 35px;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .profile-edit-box{
+        padding: 0px;
+    }
+    .slider-holder img{
+        height: 75vh;
+    }
+    .landing-content-test{
+        display: block;
+        height: 15vh;
+        margin-top: 50px;
+    }
+    .landing-content{
+        position: unset;
+        margin: auto;
+        width: 90%;
+        height: unset;
+    }
+    .landing-content span{
+        font-size: 15px;
+        margin-top: unset;
+    }
+}
+/*-------------------------------------------- 580px -------------------------------------*/
+@media only screen and (max-width: 580px) { 
+    .btn-resume{
+        font-size: 2em;
+        padding: 0px 12px 1px;
+    }
+    .resume-selector li{
+        width: 60px;
+    }
+    .this-resume{
+        width: 120px!important;
+    }
+    .chat-sec{
+        height: 42vh;
+    }
+    .user-list ul{
+        height: calc(100% - 190px);
+    }
+}
+
+/*-------------------------------------------- 550px -------------------------------------*/
+@media only screen and (max-width: 550px) { 
+    .search-heading{
+        font-size: 2em;
+    }
+    .slider-holder img{
+        height: 63vh;
+    }
+    .slider-holder{
+        margin-top: 80px;
+    }
+    .main-name-corp{
+        font-size: 1.25em;
+    }
+}
+
+/*-------------------------------------------- 500px -------------------------------------*/
+@media only screen and (max-width: 500px) { 
+    .resume-selector li{
+        width: 45px;
+    }
+    .this-resume{
+        width: 95px!important;
+    }
+}
+
+/*------------------------------------------------- 474px ---------------------------------------*/
+@media only screen and (max-width: 474px) {
+    .btn-banner {
+        padding: 15px 35px;
+        font-size: 15px;
+        margin-top: 2px;
+    }
+    .recentsearches-secs{
+        width: 80%;
+    }
+    .slider-holder img{
+        height: 55vh;
+    }
+    .landing-content-test{
+        height: 10vh;
+        margin-top: 20px;
+    }
+    .section-header {
+        margin-top: 15px;
+    }
+    .logo-bg-corp img{
+        width: 100px;
+    }
+    .video-intro-corp{
+        width: 170px;
+    }
+    .main-name-corp{
+        font-size: 1.12em;
+    }
+    .chatbox-head img{
+        height: 60px;
+        width: 60px;
+        margin-right: 15px;
+    }
+    .chat-sec{
+        height: 47vh;
+    }
+}
+
+/*----------------------------------------------- 428px ------------------------------------------*/
+@media only screen and (max-width: 428px) {
+    .btn-join-holder {
+        width: 75%;
+    }
+    .profile-gen ul li {
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+    .search-heading{
+        font-size: 1.8em;
+        padding-bottom: 15px;
+    }
+    .hire-switch{
+        bottom: 1px;
+        right: 5px;
+    }
+    .quick-links ul li {
+        width: 100%;
+    }
+    .slider-holder img{
+        height: 48vh;
+    }
+    .slider-holder{
+        margin-top: 120px;
+    }
+    .btn-resume{
+        font-size: 1em;
+        padding: 0px 5px 1px;
+    }
+    .btn-in-search{
+        bottom: 6px;
+        width: 50px;
+    }
+    .btn-in-search span{
+        top: 7px;
+        right: 6px;
+    }
+    .search-main{
+        padding: 10px 12px 10px 12px;
+        font-size: 1em;
+    }
+    .resume-selector li{
+        width: 40px;
+        margin: 5px 5px;
+    }
+    .this-resume{
+        width: 80px!important;
+    }
+    .profile-text-holder{
+        padding-left: 0px;
+    }
+    .general-filter-name{
+        bottom: 50px;
+        left: 10%;
+    }
+    .prog-line{
+        width: 30px;
+    }
+    #Messenger{
+        height: calc(100vh - 131px);
+    }
+}
+/*------------------------------------------------- 387px --------------------------------------------*/
+@media only screen and (max-width: 387px){
+    .chat-sec{
+        height: 45vh;
+    }
+    .input-holder .btn-chat-send{
+        width: 35px;
+        padding: 10px;
+    }
+    .user-list ul{
+        height: calc(100% - 230px);
+    }
+}
+
+/*------------------------------------------------- 360px --------------------------------------------*/
+@media only screen and (max-width: 360px) {
+    .btn-banner {
+        padding: 10px 25px;
+        font-size: 13px;
+        margin-top: 2px;
+    }
+    .btn-join-holder {
+        width: 60%;
+    }
+    .slider-holder img{
+        height: 43vh;
+    }
+    .landing-content-test{
+        height: 8vh;
+        margin-top: 15px;
+    }
+    .section-header {
+        margin-top: 5px;
+    }
+    .resume-selector li{
+        width: 30px;
+    }
+    .this-resume{
+        width: 60px!important;
+    }
+    .chat-sec{
+        height: 43vh;
+    }
+}
+
+/* ----------------------------------------------- iPad Pro ------------------------------------------------ */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .landing-content{
+          line-height: 35vh;
+      }
+      .col-sm-8, .col-md-9, .col-md-3, .col-sm-4, .col-md-4{
+          width: 100%;
+      }
+      .main-search-holder{
+          height: calc(20vh);
+      }
+      .chat-sec{
+          height: 70vh;
+      }
+      .btn-join-holder{
+          width: 90%;
+      }
+      .search-filter{
+          height: 45vh;
+      }
+      .apply-holder{
+          bottom: 20px;
+      }
+      .recent-holder{
+          height: calc(61vh);
+      }
+      .comm-list-holder .row .col-sm-4 h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .landing-content{
+        line-height: 60vh;
+    }
+    #popularsearches ul{
+        height: 800px;
+    }
+    #recentsearches h3{
+        margin-top: 165px;
+    }
+    #Communities .col-sm-4, #Communities .col-sm-8, #ProfilePage .col-md-4,#ProfilePage .col-md-6,#ProfilePage .col-md-3, #Profile .profile-gen .col-md-4, #Profile .profile-gen .col-md-8{
+        width: 100%;
+    }
+    .chat-sec{
+        height: 48vh;
+    }
+    .comm-list-holder .row .col-sm-4 h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+

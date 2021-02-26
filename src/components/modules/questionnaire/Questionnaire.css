@@ -1,0 +1,139 @@
+#Questionnaire{
+    position: fixed;
+    z-index: 9;
+    height: 450px;
+    width:300px;
+    right:15px;
+    background: #FFFFFF;
+    bottom:0;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px #111111;
+    font-size: 0.8em;
+}
+.chat-head{
+    padding: 10px 15px;
+    background:#3F465B;
+    color:#FFFFFF;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.chat-close{
+    float:right;
+    margin-top: 5px;
+}
+.chat-window{
+    height: 330px;
+    overflow-y: auto;
+    background: #efefef;
+    padding:10px
+}
+.input-window{
+    padding: 15px;
+    position: relative;
+    height:75px
+}
+.input-window input{
+    width: 90%;
+    position: absolute;
+    bottom: 15px;
+    padding: 8px 42px 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #6f6f6f;
+}
+.input-window select{
+    width: 75%;
+    padding: 3px 5px;
+    position: absolute;
+    top: 29px;
+}
+.input-window li{
+    display: inline-block;
+    width:20px;
+    text-align: center;
+    margin-right: 8px;
+    color: #6f6f6f
+}
+.input-window li span{
+    cursor: pointer;
+}
+.btn-chat-send{
+    background: #3F465B;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 19px;
+    right: 19px;
+    border:none;
+    padding: 5px;
+    width:35px;
+    border-radius: 4px;
+}
+.sys-response{
+    float: left;
+    display: block;
+    clear: both;
+    max-width: 250px;
+    background: #e4caca;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 0.85em;
+    line-height: 1.2;
+    border-radius: 0 5px 5px 5px;
+}
+.user-response{
+    float: right;
+    display: block;
+    clear: both;
+    max-width: 250px;
+    background: #b7c7b7;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 0.85em;
+    line-height: 1.2;
+    border-radius: 5px 0 5px 5px
+}
+.input-window input.combo-suggest{
+    width: 55px;
+    bottom: 22px;
+    padding: 3px 0;
+    border-radius: 0px;
+    border: none;
+    border-right: 1px solid #6f6f6f;
+    z-index: 9;
+    left: 25px
+}
+.input-window input.combo-input{
+    padding-left: 70px
+}
+.chatError{
+    background: #990000;
+    color: #FFFFFF;
+    padding: 10px;
+    line-height: 1;
+    width: 100%;
+    position: absolute;
+    font-size: 0.9em;
+}
+.live-feed-holder{
+    position: absolute;
+    left: 0;
+    top: 38px;
+}
+.live-feed-holder button{
+    width: 100%;
+    background: #3F465B;
+    border: none;
+    color: #FFFFFF;
+    padding: 2px;
+    position: relative;
+    top: -4px;
+ }
+ .head-shot-display{
+     height:100px
+ }
+ .logo-in-ques{
+    width:100px;
+    height:auto;
+    margin-left: 10px;
+ }

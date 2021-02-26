@@ -1,0 +1,323 @@
+#ProfileEdit{
+    background: #121f21;
+    height: 100vh;
+    padding: 50px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+}
+#progress-holder{
+    color:#FFFFFF;
+}
+#progress-holder ul li{
+    display: inline-block;
+}
+.prog-icon-curr,.prog-icon{
+    width: 30px;
+    height:30px;
+    border-radius:50%;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+.prog-icon-curr{
+    color: #C40223
+}
+.prog-icon-curr span,.prog-icon span{
+    vertical-align: middle;
+    margin-top:2px
+}
+.prog-line{
+    width: 50px;
+    border-top: 2px solid #FFFFFF;
+    height:5px
+}
+#ProfileEdit-holder{
+    height: calc(100% - 30px);
+    background: #FFFFFF;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.arrow-holder{
+    position: absolute;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background: #122022;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3em;
+    top: 47%;
+    cursor:pointer;
+    padding-top: 7px;
+}
+.right-direction{
+    right:15px;
+    padding-left:5px;
+
+}
+.left-direction{
+    left:15px;
+    padding-right:5px;
+}
+.profile-edit-box{
+    padding: 10px 80px;
+    height:100%;
+}
+.profile-edit-box form{
+    padding: 0 30px;
+}
+.input-label{
+    padding-left:2px;
+    font-size: 0.8em;
+    font-weight: 600;
+    display:inline-block;
+    margin-top:20px
+}
+.input-label.empty{
+    height:40px
+}
+.auto-scroller{
+    height:75%;
+    overflow-y: auto;
+}
+.react-datepicker-wrapper{
+    display: block !important;
+}
+.react-datepicker-wrapper input{
+    margin: 5px auto 20px;
+    font-size: 0.8em;
+    padding: 4px 10px;
+    width:100%
+}
+#video-container {
+	margin: 50px auto;
+	width: 340px;
+	height: 260px;
+	border: 10px #333 solid;
+}
+#videoElement {
+	width: 320px;
+	height: 240px;
+	background-color: #666;
+}
+.close-pro-edit{
+    position: fixed;
+    right:20px;
+    top:0px;
+    color: #FFFFFF;
+    font-size: 3em;
+    cursor: pointer;
+}
+.profile-picture{
+    height:190px;
+    margin: auto
+}
+.submit-holder{
+    padding: 15px 30px 0
+}
+.profile-picture-holder{
+    width: 150px;
+    margin-top: 15px
+}
+.gen-partition{
+  margin:5px auto
+}
+.player-holder video, .player-holder > div{
+    width: 100%;
+}
+.player-holder .no-vid-holder{
+    height: 300px;
+    background: #000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 120px 0
+}
+.heQTiL{
+    min-height: 331px !important;
+}
+.rec-btn-holder{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    text-align: center;
+}
+.rec-btn-holder button{
+    background: transparent;
+    border:none
+}
+.rec-btn-holder span{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 5em;
+    cursor: pointer;
+}
+.countdown-clock{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.5em;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+.hidden-btn{display: none;}
+.skills-holder{
+    min-height:33px;
+    cursor: text
+}
+.skills-holder li{
+    display: inline-block;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    background-color: #2b78ac;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.skills-holder li span{
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    cursor: pointer;
+    background: #2b78ac;
+    padding: 1px 2px 2px 2px;
+    border-radius: 50%;
+}
+.all-skills-list{
+    margin-top: 3px;
+    border: 1px solid #888888;
+    width:250px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding:35px 5px 5px;
+    position: absolute;
+    background:#FFFFFF;
+    z-index:9;
+    /* top:36px */
+}
+.all-skills-list li{
+    font-size: 0.8em;
+}
+.skill-search{
+    width: 250px;
+    padding: 6px 8px;
+    margin-bottom: 5px;
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #999999;
+    box-shadow: inset 0 0 5px #888;
+    font-size: 0.8em;
+}
+.all-skills-list input[type=checkbox]{
+    vertical-align: sub;
+}
+.list-close{
+    position: absolute;
+    cursor: pointer;
+    left: 228px;
+    /* top: 63px; */
+    z-index: 999;
+    font-size: 1.3em;
+}
+.pay-details-holder{
+    max-width: 500px;
+    margin: auto;
+}
+.inner-input{
+    border: none;
+    border-right: 1px solid #999999;
+    width: 70px;
+    position: absolute;
+    left: 25px;
+    top: 42px;
+}
+.profile-pic-sec{
+    background: #f1f1f1;
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    height: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pic-holder{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+.pic-holder:hover > .overlay-edit{
+    display: block;
+}
+.overlay-edit{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    background: #ffffffcc;
+    top: 0;
+    padding: 55px;
+    display: none;
+}
+.overlay-edit .fa{
+    font-size: 2em;
+    color: #3F465B;
+    cursor: pointer;
+}
+.in-box-work{
+    margin-top:5px;
+    margin-left:20px
+}
+.in-box-work .input-container{
+    margin-left: 0;
+}
+.date-replacer{
+    border: none;
+    padding-top: 6px;
+}
+
+.exp-inp{
+    width: 50px;
+    margin-left: 10px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    border: 1px solid #888888;
+}
+.exp-inp.err{
+    border: 1px solid #C40223 !important;
+    box-shadow: 0px 0px 3px #C40223;
+}
+.side-err{
+    font-size: 0.8em;
+    color:#C40223;
+    margin-left: 10px;
+}
+.btn-alert-holder button{
+    margin: 20px 0 20px 20px;
+    width:100px;
+    padding:5px;
+}
+.video-react{
+    padding-top:270px !important
+}
+.video-react .video-react-big-play-button{
+    top:200px !important;
+    left:45% !important;
+    border-radius: 1.3em !important;
+    width: 1.5em !important;
+}
+.btn-rmv-link{
+    float: right;
+    background: none;
+    border: none;
+    color: #C40223;
+    text-decoration: underline;
+    font-size: 0.8em;
+}
+.footnote{
+    font-size:0.75em;
+    color:#C40223
+}

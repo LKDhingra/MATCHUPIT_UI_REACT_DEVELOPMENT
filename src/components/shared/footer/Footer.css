@@ -1,0 +1,31 @@
+#Footer{
+    background: #3F465B;
+    color:#FFFFFF;
+    margin-top: 80px;
+}
+.footer-logo-holder{
+    max-width:100px;
+    margin: 10px 0
+}
+.address-holder{
+    margin: 60px auto
+}
+.footer-logo-holder ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.footer-logo-holder ul{
+    margin-bottom: 25px;
+}
+.footer-links{
+    text-decoration: underline;
+    margin-right:10px;
+}
+.foot-text{
+    font-size: 0.8em;
+    margin:25px auto 20px
+}
+.follow-us li{
+    display: inline-block;
+    margin-left: 20px;
+}
