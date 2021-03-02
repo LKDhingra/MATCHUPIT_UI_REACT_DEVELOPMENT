@@ -341,20 +341,20 @@ class ConnectedProfilePage extends React.Component {
                                     </ul>
                                 </div>
                                 <div className="col-sm-4">
-                                    <div className='exp-box'>
+                                    {/* <div className='exp-box'>
                                         <strong>Total Experience: </strong>{work_experience && work_experience.total_experience ? work_experience.total_experience : 0} years
-                                    </div>
+                                    </div> */}
                                     <div className="">
                                         {/* <p className="value-text" style={{ marginTop: '15px' }}>Available for hire: <span className="avail-hire" style={{ background: available_hire ? 'green' : '#C40223' }}>{available_hire ? 'YES' : 'NO'}</span></p> */}
                                         <p className="value-text" style={{ marginTop: '15px' }}>
-                                            <span className="avail-hire" style={{ background: available_hire ? 'green' : '#C40223' }}>{available_hire ? 'Available for Hire' : 'Not Available for Hire'}</span>
+                                            {/* <span className="avail-hire" style={{ background: available_hire ? 'green' : '#C40223' }}>{available_hire ? 'Available for Hire' : 'Not Available for Hire'}</span>
                                             {
                                                 available_hire && this.state.JobDetailStatus && ACCOUNT=="corporate" ?
                                                 <span> {this.state.jobTypeValue} ({this.state.currencyValue} {this.state.compensationPriceValue} {this.state.JobTypeId == 3 ? <small><i>Hourly</i></small> : <small><i>Yearly</i></small>})</span> : ""
-                                            }
+                                            } */}
                                         </p>
                                     </div>
-                                    <p className="value-text" style={{ marginTop: '15px' }}>Citizenship: {citizenship ? citizenship!="-1" ? citizenship : "N/A" : "N/A"} </p>
+                                    {/* <p className="value-text" style={{ marginTop: '15px' }}>Citizenship: {citizenship ? citizenship!="-1" ? citizenship : "N/A" : "N/A"} </p>
                                     <p className="value-text" style={{ marginTop: '15px' }}>Visa Status: <span className="avail-hire" style={{ background: other_country_authorization=="YES" ? 'green' : '#C40223' }}>{other_country_authorization != "YES" ? "NO" : "YES"}</span></p>
                                     {
                                         other_country_authorization != "YES" ? "" :
@@ -379,7 +379,7 @@ class ConnectedProfilePage extends React.Component {
                                     <div className="btn-download">
                                         <button onClick={this.generatePDF.bind(this)}><span className="fa fa-download"></span> Download Resume</button>
                                         <div style={{ display: 'none' }} id='templateDL'><CreateTempelate user={this.props.user} /></div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="row">
@@ -390,12 +390,12 @@ class ConnectedProfilePage extends React.Component {
                                     {((social_links && social_links.facebook !== '') || (social_links && social_links.twitter !== '') || (social_links && social_links.linkedin !== '') || (social_links && social_links.instagram !== '') || (social_links && social_links.pinterest !== '') || (social_links && social_links.github !== '')) &&
                                         <span className="bold">Social Handles</span>}
                                     <ul className="social-block">
-                                        {social_links && social_links.facebook !== '' && <li><a rel="noopener noreferrer" href={`https://${social_links.facebook}`} target="_blank"><span className="fa fa-facebook"></span></a></li>}
-                                        {social_links && social_links.twitter !== '' && <li><a rel="noopener noreferrer" href={`https://${social_links.twitter}`} target="_blank"><span className="fa fa-twitter"></span></a></li>}
-                                        {social_links && social_links.linkedin !== '' && <li><a rel="noopener noreferrer" href={`https://${social_links.linkedin}`} target="_blank"><span className="fa fa-linkedin"></span></a></li>}
-                                        {social_links && social_links.instagram !== '' && <li><a rel="noopener noreferrer" href={`https://${social_links.instagram}`} target="_blank"><span className="fa fa-instagram"></span></a></li>}
-                                        {social_links && social_links.pinterest !== '' && <li><a rel="noopener noreferrer" href={`https://${social_links.pinterest}`} target="_blank"><span className="fa fa-pinterest"></span></a></li>}
-                                        {social_links && social_links.github !== '' && <li><a rel="noopener noreferrer" href={`https://${social_links.github}`} target="_blank"><span className="fa fa-github"></span></a></li>}
+                                        {social_links && social_links.facebook !== '' && <li><a rel="noopener noreferrer" href={`https://facebook.com/${social_links.facebook}`} target="_blank"><span className="fa fa-facebook"></span></a></li>}
+                                        {social_links && social_links.twitter !== '' && <li><a rel="noopener noreferrer" href={`https://twitter.com/${social_links.twitter}`} target="_blank"><span className="fa fa-twitter"></span></a></li>}
+                                        {social_links && social_links.linkedin !== '' && <li><a rel="noopener noreferrer" href={`https://linkedin.com/in/${social_links.linkedin}`} target="_blank"><span className="fa fa-linkedin"></span></a></li>}
+                                        {social_links && social_links.instagram !== '' && <li><a rel="noopener noreferrer" href={`https://instagram.com/${social_links.instagram}`} target="_blank"><span className="fa fa-instagram"></span></a></li>}
+                                        {social_links && social_links.pinterest !== '' && <li><a rel="noopener noreferrer" href={`https://pinterest.com/${social_links.pinterest}`} target="_blank"><span className="fa fa-pinterest"></span></a></li>}
+                                        {social_links && social_links.github !== '' && <li><a rel="noopener noreferrer" href={`https://github.com/${social_links.github}`} target="_blank"><span className="fa fa-github"></span></a></li>}
                                     </ul>
                                 </div>
                                 {communities && communities.length ? <div className="col-sm-6" style={{ minHeight: '75px' }}>

@@ -78,15 +78,23 @@ const ResumeTemplate2 = (props) => {
                 <div className="top-wrap" style={{background: '#232329',color:'#FFFFFF',padding: '10px 30px'}}>
                     <h3 className="name">{`${basicInfo.first_name} ${basicInfo.last_name}`}</h3>
                     <p className="job-title">{work_experience.designations&&work_experience.designations.length?work_experience.designations[0]:null}</p>
+                    <div className="col-sm-5">
+                            <p className="icon-info"><span className="fa fa-phone"> {` ${basicInfo.dial_code||''} ${basicInfo.phone||''}`}</span></p>
+                            <p className="icon-info"><span className="fa fa-envelope"> {` ${basicInfo.email}`}</span></p>
+                        </div>
+                         <div className="col-sm-5">
+                            {social_links&&social_links.linkedin ? <p className="icon-info"><span className="fa fa-linkedin"> {` ${social_links.linkedin}`}</span></p> : null}
+                            {social_links&&social_links.twitter ? <p className="icon-info"><span className="fa fa-twitter"> {` ${social_links.twitter}`}</span></p> : null}
+                        </div>
                     <div className="row clearfix">
-                        <div className="col-sm-5">
+                        {/* <div className="col-sm-5">
                             <p className="icon-info"><span className="fa fa-phone"> {` ${basicInfo.dial_code||''} ${basicInfo.phone||''}`}</span></p>
                             <p className="icon-info"><span className="fa fa-envelope"> {` ${basicInfo.email}`}</span></p>
                         </div>
                         <div className="col-sm-5">
                             {social_links&&social_links.linkedin ? <p className="icon-info"><span className="fa fa-linkedin"> {` ${social_links.linkedin}`}</span></p> : null}
                             {social_links&&social_links.twitter ? <p className="icon-info"><span className="fa fa-twitter"> {` ${social_links.twitter}`}</span></p> : null}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="bottom-wrap" style={{padding:'15px 30px'}}>
