@@ -74,7 +74,7 @@ const ResumeTemplate2 = (props) => {
     }
     return (
         <div id="TempHolder" style={{padding:0}}>
-            <div id="ResumeTemplate2" className="text-left ResumeTemplate">
+            <div id="ResumeTemplate2" className="text-justify ResumeTemplate">
                 <div className="top-wrap" style={{background: '#232329',color:'#FFFFFF',padding: '10px 30px'}}>
                     <h3 className="name">{`${basicInfo.first_name} ${basicInfo.last_name}`}</h3>
                     <p className="job-title">{work_experience.designations&&work_experience.designations.length?work_experience.designations[0]:null}</p>

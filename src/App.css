@@ -94,8 +94,23 @@ ul{
   font-size: 8px;
   line-height: 8px;
 }
-.general-input{
-  width:100%;
+
+input {
+  border: 1px solid #999999;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #000000;
+  box-shadow: 0 0 3px #1670BE;
+  outline-offset: 0px;
+  outline: none;
+}
+
+.general-input {
+  width: 100%;
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid #999999;

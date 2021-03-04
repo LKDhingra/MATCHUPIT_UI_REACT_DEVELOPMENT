@@ -51,12 +51,18 @@ class ConnectedMessenger extends React.Component {
     }, 1000)
 
   }
+  // filterConversations = (e) => {
+  //   this.setState({
+  //     convoListFiltered: this.state.convoListOriginal.filter(i => (
+  //       (i.sender.username.toLowerCase().includes(e.target.value.toLowerCase())) ||
+  //       (i.receiver.username.toLowerCase().includes(e.target.value.toLowerCase())) ||
+  //       (i.message.message.text && i.message.message.text.toLowerCase().includes(e.target.value.toLowerCase()))))
+  //   })
   filterConversations = (e) => {
     this.setState({
       convoListFiltered: this.state.convoListOriginal.filter(i => (
         (i.sender.username.toLowerCase().includes(e.target.value.toLowerCase())) ||
-        (i.receiver.username.toLowerCase().includes(e.target.value.toLowerCase())) ||
-        (i.message.message.text && i.message.message.text.toLowerCase().includes(e.target.value.toLowerCase()))))
+        (i.receiver.username.toLowerCase().includes(e.target.value.toLowerCase()))))
     })
   }
   selectConversation = (e) => {

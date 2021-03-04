@@ -68,9 +68,9 @@ const ResumeTemplate4 = (props) => {
     }
     return (
         <div id="TempHolder">
-            <div id="ResumeTemplate4" className="text-left ResumeTemplate">
+            <div id="ResumeTemplate4" className="text-justify ResumeTemplate">
                 <div style={{textAlign:'center',fontSize:'24px', fontWeight:500, marginBottom:'10px'}}>{`${basicInfo.first_name} ${basicInfo.last_name}`}</div>
-                <p style={{textAlign:'center'}}>
+                <p style={{textAlign:'center',fontSize:'16px'}}>
                     {`${basicInfo.city ? basicInfo.city : ''}, ${basicInfo.state !== '' ? basicInfo.state : ''} ${basicInfo.zipcode ? basicInfo.zipcode : ''}, ${basicInfo.country_name !== '-1' ? basicInfo.country_name : ''}`}
                     <br />
                     {`${basicInfo.dial_code||''} ${basicInfo.phone||''}`}
@@ -78,9 +78,9 @@ const ResumeTemplate4 = (props) => {
                     {`${basicInfo.email ? basicInfo.email : ''}`} {social_links && social_links.linkedin ? ` | ${social_links.linkedin}` : null} {social_links && social_links.twitter ? ` | ${social_links.twitter}` : null}
                 </p>
                 <p><b>{work_experience.designations && work_experience.designations.length ? work_experience.designations[0] : null}</b></p>
-                <div className="row clearfix">
+                <div className="row clearfix" style={{fontWeight:'normal', fontSize:'1.0em', fontFamily: 'Arial', lineHeight: '1.4'}}>
                     <div className="col-sm-12">
-                        <p style={{fontWeight:'bold', fontSize:'1.2em'}}>Summary</p>
+                        <p style={{ fontSize:'1.2em', fontWeight: 'bold' }}>Summary</p>
                         {personal_details && personal_details.aboutMe ? <span style={{textAlign:'justify'}}> {parse(personal_details.aboutMe)}</span> : <span></span>}
                     </div>
                 </div>
