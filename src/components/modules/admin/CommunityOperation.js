@@ -27,7 +27,7 @@ class ConnectedCommunityOperation extends React.Component {
             currPage: 1,
             totalPages: 1,
             formReady: false,
-            selectedCommunityDetails: null,
+            selectedCommunityDetails: '',
             defaultColDef: {
                 resizable: true,
                 sortable: true,

@@ -1,4 +1,4 @@
-import { videoFormats, logoFormats, logoMaxSize, videoMaxSize } from "./constants";
+import { videoFormats, logoFormats, imgMaxSize, videoMaxSize } from "./constants";
 
 export const isInputEmpty = (input) => {
     return (input === '')
@@ -49,7 +49,7 @@ export const isImageOk = (value, size) => {
     let splits = value.split('.')
     let ext = splits[splits.length-1]
     let formats=logoFormats
-    if(formats.includes(ext.toLowerCase()) && size <= logoMaxSize){
+    if(formats.includes(ext.toLowerCase()) && size <= imgMaxSize){
         return true
     }else{
         return false
